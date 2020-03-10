@@ -1,0 +1,12 @@
+It's not part of the toolkit so far. Feel free to contribute a PR :)
+You can use these kind of requests out of your project:
+https://www.easports.com/de/fifa/ultimate-team/api/fut/item?jsonParamObject=%7B%22baseid%22:%2220801%22,%22link%22:1%7D
+or
+https://www.easports.com/de/fifa/ultimate-team/api/fut/price-band/20801
+or
+https://www.easports.com/de/fifa/ultimate-team/api/fut/item?jsonParamObject=%7B%22ovr%22:%2274:99%22,%22pageSize%22:40,%22position%22:%22LW%22%7D
+
+Just use Fiddler and open FUT DB - Then you can inspect all the requests you need for your project.
+
+For the existing transactions (playerimage, nationimage, etc.) I updated to FUT18 here:
+https://github.com/tringler/FIFA-Ultimate-Team-Toolkit/tree/FUT18
